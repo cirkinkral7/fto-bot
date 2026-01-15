@@ -1,0 +1,19 @@
+{
+  "name": "fto-rapor-bot",
+  "version": "1.0.0",
+  "description": "LSPD FTO Rapor Yönetim Botu",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "deploy": "node scripts/deploy-commands.js",
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["discord", "bot", "fto", "rapor"],
+  "author": "CirkinKral777",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  }
+}
